@@ -23,29 +23,31 @@
       <p>
         Complete el siguiente formulario para suscribirse a nuestras noticias.
       </p>
-      <form>
+      <form id="formulario">
         <div class="col1">
           <fieldset>
             <p>Nombre</p>
-            <input type="text" />
+            <input type="text" id="fnombre" name="fnombre"/>
           </fieldset>
           <fieldset>
             <p>Apellido</p>
-            <input type="text" />
+            <input type="text" id="fapellido" name="fapellido" />
           </fieldset>
         </div>
         <div class="col2">
           <fieldset>
             <p>Correo Electronico</p>
-            <input type="email" />
+            <input type="email" id="femail" name="femail"/>
           </fieldset>
           <fieldset>
             <p>Contraseña</p>
-            <input type="password" />
+            <input type="password" id="fpass" name="fpass" />
           </fieldset>
         </div>
       </form>
-      <button class="boton-form" type="submit">Suscribirse</button>
+      <button type="submit" form="formulario" value="Submit" class="boton-form">
+          Suscribirse
+        </button>
     </section>
   </body>
 </html>
