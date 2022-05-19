@@ -1,122 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <title>E-SPORTtal</title>
-    </head>
-    <body>
-        <header>
-            <h1>E-SPORTal</h1>
-            <nav>
-                <a href="">Inicio</a>
-                <a href="">Counter Strike</a>
-                <a href="">League of Legends</a>
-                <a href="">Fortnite</a>
-                <a href="form.html">Suscribite</a>
-            </nav>
-        </header>
-        <section class="contenido">
-            <div class="publicidades">
-                <div class="publicidad">
-                    <a href="https://rog.asus.com/ar/">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGTl2k-O9PtIGv2Ob6dtmWcliVb9EHBtFrA&usqp=CAU" 
-                    alt="laptop">
-                    </a>
-                </div>
-                <div class="publicidad">
-                    <a href="https://www.playstation.com/es-ar/ps5/">
-                        <img src="https://www.quepasomiami.com/wp-content/uploads/2020/09/las-ps5-estaran-disponibles-para-reservar-manana-en-gamestop.jpg" 
-                    alt="ps5">
-                    </a>
-                </div>
-                <div class="publicidad">
-                    <a href="https://www.nvidia.com/es-la/">
-                        <img src="https://i.ytimg.com/vi/02h_dNl-C-s/maxresdefault.jpg" 
-                    alt="nvidia">
-                    </a>
-                </div>
-            </div>
-            <div class="articulos">
-                <section class="noticia">
-                    <a href="https://www.levelup.com/noticias/675607/Call-of-Duty-Warzone-para-Android-y-iPhone-es-real-y-algunos-ya-lo-estan-jugando">
-                        <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/739942/739942_1140x516.jpg" 
-                        alt="">
-                        <h2 class="titulo">
-                            Call of Duty: Warzone para Android y iPhone es real y algunos ya lo están jugando
-                        </h2>
-                        <p class="descripcion">
-                            Activision confirmó la existencia de Project Aurora. Se trata de una versión para móviles 
-                            de Call of Duty: Warzone, la cual busca llevar la intensa experiencia Battle Royale a 
-                            tu bolsillo con una versión que correrá en sistemas con iOS y Android.
-                        </p>
-                    </a>
-                </section>
-                <section class="noticia">
-                    <a href="https://www.levelup.com/noticias/675782/Bethesda-retrasa-Starfield-y-Redfall-no-llegaran-este-ano-por-una-buena-razon">
-                        <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/740111/740111_1140x516.jpg" 
-                        alt="">
-                        <h2 class="titulo">
-                            Bethesda retrasa Starfield y Redfall; no llegarán este año por una buena razón
-                        </h2>
-                        <p class="descripcion">
-                            Xbox y Bethesda confirmaron varios proyectos importantes para este año. El más 
-                            destacado sin duda es Starfield, el gran lanzamiento que tenían preparado para 
-                            el próximo 11 de noviembre. Por otro lado, Redfall, la nueva IP de Arkane Austin, 
-                            estaba programada para algún momento de este verano.
-                        </p>
-                    </a>
-                </section>
-                <section class="noticia">
-                    <a href="https://www.levelup.com/noticias/675725/Valve-enfrentara-demanda-antimonopolio-en-EUA-por-Steam">                    
-                        <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/740054/740054_1140x516.jpg" 
-                        alt="">
-                        <h2 class="titulo">
-                            Valve enfrentará demanda antimonopolio en EUA por Steam
-                        </h2>                        
-                        <p class="descripcion">
-                            La compañía es acusada de perjudicar la libre competencia, así como a desarrolladores y editores.
-                        </p>
-                    </a>
-                </section>
-            </div>
-
-            <h2 class="titulo"> Tambien te pueden interesar</h2>
-            <div class="extras">
-                <section class="noticia">
-                    <a href="https://www.levelup.com/articulos/674625/The-Stanley-Parable-el-juego-que-juega-contigo">
-                        <h3 class="titulo-extra">
-                            The Stanley Parable: el juego que juega contigo
-                        </h3>
-                        <img src="data:image/jpeg;base64,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" 
-                        alt="MSI">
-                    </a>
-                </section>
-                <section class="noticia">
-                    <a href="https://www.levelup.com/articulos/674541/Vendieron-Tomb-Rider-para-entrar-a-los-NFT-pero-el-mercado-colapso">
-                        <h3 class="titulo-extra">
-                            Vendieron Tomb Rider para entrar a los NFT... pero el mercado colapsó
-                        </h3>
-                        <img src="data:image/jpeg;base64,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" 
-                        alt="">
-                    </a>
-                </section>
-                <section class="noticia">
-                    <a href="https://www.levelup.com/noticias/675585/La-FIFA-revela-que-nuevos-juegos-de-futbol-llegaran-este-ano">
-                        <h3 class="titulo-extra">
-                            La FIFA revela que nuevos juegos de futbol llegarán este año
-                        </h3>
-                        <img src="https://dlprivateserver.com/wp-content/uploads/2021/07/FIFA-22-estrella-de-la-portada-de-Kylian-Mbappe.jpg" 
-                        alt="">
-                    </a>
-                </section>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-SPORTtal</title>
+  </head>
+  <body>
+    <header>
+      <h1>E-SPORTal</h1>
+      <nav>
+        <a href="">Inicio</a>
+        <a href="">Counter Strike</a>
+        <a href="">League of Legends</a>
+        <a href="">Fortnite</a>
+        <a href="form.html">Suscribite</a>
+      </nav>
+    </header>
+    <section class="contenido">
+      <div class="publicidades col1">
+        <div class="publicidad">
+          <a href="https://rog.asus.com/ar/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGTl2k-O9PtIGv2Ob6dtmWcliVb9EHBtFrA&usqp=CAU"
+              alt="laptop"
+            />
+          </a>
+        </div>
+        <div class="publicidad">
+          <a href="https://www.playstation.com/es-ar/ps5/">
+            <img
+              src="https://www.quepasomiami.com/wp-content/uploads/2020/09/las-ps5-estaran-disponibles-para-reservar-manana-en-gamestop.jpg"
+              alt="ps5"
+            />
+          </a>
+        </div>
+        <div class="publicidad">
+          <a href="https://www.nvidia.com/es-la/">
+            <img
+              src="https://i.ytimg.com/vi/02h_dNl-C-s/maxresdefault.jpg"
+              alt="nvidia"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="articulos">
+        <section class="noticia">
+          <a
+            href="https://www.levelup.com/noticias/675607/Call-of-Duty-Warzone-para-Android-y-iPhone-es-real-y-algunos-ya-lo-estan-jugando"
+          >
+            <img
+              src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/739942/739942_1140x516.jpg"
+              alt=""
+            />
+            <h2 class="titulo">
+              Call of Duty: Warzone para Android y iPhone es real y algunos ya
+              lo están jugando
+            </h2>
+            <p class="descripcion">
+              Activision confirmó la existencia de Project Aurora. Se trata de
+              una versión para móviles de Call of Duty: Warzone, la cual busca
+              llevar la intensa experiencia Battle Royale a tu bolsillo con una
+              versión que correrá en sistemas con iOS y Android.
+            </p>
+          </a>
         </section>
-        <footer>
-            <p>LPPA ISI</p>
-        </footer>
-    </body>
+        <section class="noticia">
+          <a
+            href="https://www.levelup.com/noticias/675782/Bethesda-retrasa-Starfield-y-Redfall-no-llegaran-este-ano-por-una-buena-razon"
+          >
+            <img
+              src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/740111/740111_1140x516.jpg"
+              alt=""
+            />
+            <h2 class="titulo">
+              Bethesda retrasa Starfield y Redfall; no llegarán este año por una
+              buena razón
+            </h2>
+            <p class="descripcion">
+              Xbox y Bethesda confirmaron varios proyectos importantes para este
+              año. El más destacado sin duda es Starfield, el gran lanzamiento
+              que tenían preparado para el próximo 11 de noviembre. Por otro
+              lado, Redfall, la nueva IP de Arkane Austin, estaba programada
+              para algún momento de este verano.
+            </p>
+          </a>
+        </section>
+        <section class="noticia">
+          <a
+            href="https://www.levelup.com/noticias/675725/Valve-enfrentara-demanda-antimonopolio-en-EUA-por-Steam"
+          >
+            <img
+              src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/740054/740054_1140x516.jpg"
+              alt=""
+            />
+            <h2 class="titulo">
+              Valve enfrentará demanda antimonopolio en EUA por Steam
+            </h2>
+            <p class="descripcion">
+              La compañía es acusada de perjudicar la libre competencia, así
+              como a desarrolladores y editores.
+            </p>
+          </a>
+        </section>
+        <section class="noticia">
+            <a
+              href="https://www.levelup.com/noticias/676973/La-directora-de-ObiWan-Kenobi-habla-de-posibles-cameos-en-la-serie"
+            >
+              <img
+                src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/741168/741168_1140x516.jpg"
+                alt="obi wan"
+              />
+              <h2 class="titulo">
+                La directora de Obi-Wan Kenobi habla de posibles cameos en la serie
+              </h2>
+              <p class="descripcion">
+                ¿Habrá sorpresas en esta producción de Star Wars? Te compartimos las declaraciones
+              </p>
+            </a>
+          </section>
+      </div>
+      <div class="col3">
+        <h2 class="titulo">Tambien te pueden interesar</h2>
+        <div class="extras">
+            <section class="noticia">
+            <a
+                href="https://www.levelup.com/articulos/674625/The-Stanley-Parable-el-juego-que-juega-contigo"
+            >
+                <h3 class="titulo-extra">
+                The Stanley Parable: el juego que juega contigo
+                </h3>
+                <img
+                src="data:image/jpeg;base64,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"
+                alt="MSI"
+                />
+            </a>
+            </section>
+            <section class="noticia">
+            <a
+                href="https://www.levelup.com/articulos/674541/Vendieron-Tomb-Rider-para-entrar-a-los-NFT-pero-el-mercado-colapso"
+            >
+                <h3 class="titulo-extra">
+                Vendieron Tomb Rider para entrar a los NFT... pero el mercado
+                colapsó
+                </h3>
+                <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+                />
+            </a>
+            </section>
+            <section class="noticia">
+            <a
+                href="https://www.levelup.com/noticias/675585/La-FIFA-revela-que-nuevos-juegos-de-futbol-llegaran-este-ano"
+            >
+                <h3 class="titulo-extra">
+                La FIFA revela que nuevos juegos de futbol llegarán este año
+                </h3>
+                <img
+                src="https://dlprivateserver.com/wp-content/uploads/2021/07/FIFA-22-estrella-de-la-portada-de-Kylian-Mbappe.jpg"
+                alt=""
+                />
+            </a>
+            </section>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <p>LPPA ISI</p>
+    </footer>
+  </body>
 </html>
