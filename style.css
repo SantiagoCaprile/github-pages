@@ -22,14 +22,14 @@ h1 {
   padding-top: 25px;
   text-shadow: 3px 3px #e8e9f3;
 }
-.burger-menu{
-    display: flex;
-    justify-self: left;
-    height: 90%;
+.burger-menu {
+  display: flex;
+  justify-self: left;
+  height: 90%;
 }
-nav a{
-    display: none;
-  }
+nav a {
+  display: none;
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -183,8 +183,8 @@ fieldset input {
 .col3 {
   text-align: center;
 }
-footer p{
-    color: #181f1c;
+footer p {
+  color: #181f1c;
 }
 @media (min-width: 768px) {
   .col1,
@@ -192,26 +192,26 @@ footer p{
     display: flex;
     flex-direction: row;
   }
-  nav a{
+  nav a {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-.burger-menu{
+  .burger-menu {
     display: none;
-}
-nav{
+  }
+  nav {
     justify-content: space-around;
     align-items: center;
-}
-nav a{
+  }
+  nav a {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-left: 0px;
   }
   .col1,
-  .col2{
+  .col2 {
     flex-direction: row;
   }
   .contenido {
@@ -219,12 +219,12 @@ nav a{
     align-items: flex-start;
     justify-content: space-around;
   }
-  .articulos{
-      width: 50%;
+  .articulos {
+    width: 50%;
   }
   .col1,
   .col3 {
-      width: 15%;
+    width: 15%;
     position: sticky;
     top: 5px;
     margin-top: 10px;
@@ -250,12 +250,12 @@ nav a{
     font-size: 25px;
     letter-spacing: 1px;
   }
-  p{
+  p {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 25px;
   }
-  h3{
+  h3 {
     font-size: 20px;
   }
 }
