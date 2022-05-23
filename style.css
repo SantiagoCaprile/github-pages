@@ -15,7 +15,7 @@ h1 {
   height: 120px;
   color: #df1515;
   font-weight: bold;
-  font-size: 75px;
+  font-size: 60px;
   font-family: fuenteTitulo;
   letter-spacing: 5px;
   text-align: center;
@@ -199,6 +199,9 @@ footer p {
 @media (min-width: 1024px) {
   .burger-menu {
     display: none;
+  }
+  h1{
+    font-size: 75px;
   }
   nav {
     justify-content: space-around;
