@@ -210,9 +210,8 @@ footer p {
     justify-content: center;
     margin-left: 0px;
   }
-  .row1,
-  .row2 {
-    display: flex;
+  .col1,
+  .col2 {
     flex-direction: row;
   }
   .contenido {
@@ -222,7 +221,6 @@ footer p {
   }
   .articulos {
     width: 50%;
-    flex-direction: column;
   }
   .col1,
   .col3 {
