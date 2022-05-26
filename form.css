@@ -1,0 +1,10 @@
+.field-error{
+    border: 2px solid red;
+    color: red;
+    text-decoration: underline;
+}
+
+.field-ok{
+    border: 2px solid green;
+    color: green;
+}
