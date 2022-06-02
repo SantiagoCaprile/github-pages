@@ -45,7 +45,7 @@ a {
   color: #e8e9f3;
   font-size: 18px;
 }
-p {
+p, label {
   letter-spacing: 0.5px;
   font-size: 12px;
   line-height: 15px;
@@ -153,24 +153,20 @@ form {
   font-weight: bold;
 }
 fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   padding: 10px;
 }
-fieldset p,
 fieldset input {
   padding: 5px;
   font-size: 20px;
+  width: 350px;
 }
 .boton-form {
-  height: 50px;
-  width: 150px;
-  border-radius: 5%;
-  border: 2px solid #8f1e1e;
-  background-color: #181f1c;
-  color: #8f1e1e;
-  font-weight: bold;
-  font-size: 20px;
-}
-.boton-form:hover {
+  cursor: pointer;
+  margin-top: 10px;
   height: 50px;
   width: 150px;
   border-radius: 5%;
@@ -179,6 +175,10 @@ fieldset input {
   color: #e8e9f3;
   font-weight: bold;
   font-size: 20px;
+}
+.boton-form:hover {
+  background-color: #181f1c;
+  color: #8f1e1e;
 }
 .col3 {
   text-align: center;

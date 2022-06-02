@@ -28,38 +28,47 @@
       <form id="formulario">
         <div class="col1">
           <fieldset>
-            <p>Nombre</p>
+            <label for="fnombre">Nombre</label>
             <input type="text" id="fnombre" name="fnombre" />
+            <span class="error-msg ocultar">Debe tener más de 3 letras.</span>
           </fieldset>
           <fieldset>
-            <p>Apellido</p>
+            <label for="fapellido">Apellido</label>
             <input type="text" id="fapellido" name="fapellido" />
+            <span class="error-msg ocultar">Debe tener más de 3 letras.</span>
           </fieldset>
         </div>
         <div class="col1">
           <fieldset>
-            <P>Correo Electronico</p>
+            <label for="femail">Correo Electronico</label>
             <input type="email" id="femail" name="femail" />
+            <span class="error-msg ocultar">Debe tener un formato de email válido.</span>
           </fieldset>
           <fieldset>
-            <p>Contraseña</p>
+            <label for="fpass">Contraseña</label>
             <input type="password" id="fpass" name="fpass" />
+            <span class="error-msg ocultar">Debe tener al menos 8 caracteres, con letras y números.</span>
           </fieldset>
         </div>
         <div class="col1">
           <fieldset>
-            <p>Teléfono</p>
+            <label for="ftel">Teléfono</label>
             <input type="number" id="ftel" name="ftel" />
+            <span class="error-msg ocultar">Debe tener al menos 7 dígitos sin espacios, guiones ni paréntesis.</span>
           </fieldset>
           <fieldset>
-            <p>Dirección</p>
+            <label for="fdireccion">Dirección</label>
             <input type="text" id="fdireccion" name="fdireccion" />
+            <span class="error-msg ocultar">Debe tener al menos 5 caracteres, con letras, números y un espacio en el medio.</span>
           </fieldset>
         </div>
       </form>
       <button type="submit" form="formulario" value="Submit" class="boton-form">
         Suscribirse
       </button>
+      <p class="title suscripcion-anuncio ocultar">
+        GRACIAS POR SUSCRIBIRTE !!
+      </p>
     </section>
   </body>
 </html>

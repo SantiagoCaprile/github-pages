@@ -3,8 +3,32 @@
     color: red;
     text-decoration: underline;
 }
-
 .field-ok{
     border: 2px solid green;
     color: green;
+}
+#formulario .col1 {
+    width: 100%;
+}
+label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.error-msg{
+    align-self: flex-start;
+    max-width: 350px;
+    color: #b11a26;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 100;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+.suscripcion-anuncio{
+    display: block;
+    color: lightgreen;
+    font-size: 50px;
+}
+.ocultar{
+    display: none;
 }
